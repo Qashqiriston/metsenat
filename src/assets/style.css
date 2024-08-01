@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-family: "SF Pro Display", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Rubik", sans-serif;
+}
+.myInput {
+  @apply bg-inputGrey p-1.5 rounded-md w-full;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
